@@ -1,7 +1,7 @@
 {
   "name": "react-app",
   "version": "1.0.0",
-  "main": "index*.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "NODE_ENV=development nodemon backend/server.js",
@@ -14,7 +14,7 @@
   "description": "",
   "dependencies": {
     "dotenv": "^17.2.0",
-    "express": "^5.1.0",
+    "express": "^4.19.2",
     "mongoose": "^8.16.3",
     "nodemon": "^3.1.10"
   }
